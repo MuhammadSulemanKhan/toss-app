@@ -1,0 +1,85 @@
+@media screen and (max-width: 550px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         width: 100vw;
+         height: 100vh;
+         background-color: greenyellow;
+    }
+    .main{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vw;
+        width: 70vw;
+        padding: 2vw;
+        background-color: white;
+        border-radius: 0.5vw;
+    
+    }
+    
+    img{
+        width: 30vw;
+        margin-bottom: 2vw;
+    }
+    h1{
+        padding: 1vw;
+        font: 800;
+        font-size: 8vw;
+        margin-bottom: 2vw;
+    }
+    h2{
+        font-size: 5vw;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+    .btns{
+        display: flex;
+        gap: 4vw;
+    }
+    button{
+        border: none;
+        background-color: aqua;
+         padding: 1vw 2vw;
+         border-radius: 0.5vw;
+         width: 20vw;
+         height: 8vw;
+         font-size: 3.5vw;
+         box-shadow: 1px 1px 3px black;
+         margin-top: 4vw;
+         transition: 0.3s;
+    }
+    button:hover{
+        border: none;
+        background-color: rgb(0, 183, 255);
+         padding: 1vw 2vw;
+         border-radius: 0.5vw;
+         width: 20vw;
+         height: 8vw;
+         font-size: 3.5vw;
+         letter-spacing: 2px;
+    }
+    button:active{
+        border: none;
+        background-color: rgb(0, 110, 255);
+         padding: 1vw 2vw;
+         border-radius: 0.5vw;
+         width: 20vw;
+         height: 8vw;
+         font-size: 3.5vw;
+    }
+    .score{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+        width: inherit;
+        padding: 1.5vw;
+        font-size: 4vw;
+        margin-top: 4vw;
+    }
+    
+    
+  }
